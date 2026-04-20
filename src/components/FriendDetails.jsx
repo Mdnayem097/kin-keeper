@@ -32,6 +32,7 @@ const FriendDetails = () => {
 
   return (
     <>
+    {/* react-toastify-Interaction */}
       <ToastContainer
         position="top-center"
         autoClose={5000}
