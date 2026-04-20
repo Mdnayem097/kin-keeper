@@ -31,12 +31,12 @@ const router = createBrowserRouter([
       {
         path: "stats",
         element: <Stats></Stats>
-      }
+      },
     ]
   },
   {
     path: "*",
-    element: <NotFound></NotFound>
+    element: <NotFound></NotFound>,
   }
 ]);
 
