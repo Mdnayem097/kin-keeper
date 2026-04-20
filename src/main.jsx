@@ -9,6 +9,7 @@ import Home from "./components/Home.jsx";
 import FriendDetails from "./components/FriendDetails.jsx";
 import Timeline from "./components/Timeline.jsx";
 import Stats from "./components/Stats.jsx";
+import NotFound from "./components/NotFound.jsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path: "*",
+    element: <NotFound></NotFound>
+  }
 ]);
 
 createRoot(document.getElementById("root")).render(
