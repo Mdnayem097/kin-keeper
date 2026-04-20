@@ -1,16 +1,22 @@
-# React + Vite
+# 📱 KeenKeeper - Personal Interaction Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**KeenKeeper** is a modern React-based web application designed to help users manage their friend list and track communication history. It provides a seamless experience for logging calls, texts, and video chats, while offering visual insights into your social interactions.
 
-Currently, two official plugins are available:
+## 🌟 Top 3 Best Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 1. Interactive Friend Interaction Hub
+Manage your connections through a visually appealing friend list. Each friend has a dedicated **Details View** where you can trigger actions like **Call, Text, or Video Call**. These interactions are instantly captured and stored within the application's state.
 
-## React Compiler
+### 2. Dynamic Chronological Timeline
+Never lose track of your communication history. The **Timeline Feature** automatically logs every interaction, displaying who you contacted, the method of communication (Call/Text/Video), and the exact time. It includes smart filtering options to sort logs by interaction type.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 3. Visual Activity Analytics
+Transform your data into insights. Using the **Stats Feature**, the app generates a dynamic **Donut Chart (Recharts)** that visualizes the distribution of your communication methods. This allows you to see at a glance whether you prefer calling, texting, or video chatting.
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework:** React.js
+- **Routing:** React Router (v7)
+- **Styling:** Tailwind CSS & DaisyUI
+- **Data Visualization:** Recharts
+- **State Management:** React Context API (via Outlet Context)
